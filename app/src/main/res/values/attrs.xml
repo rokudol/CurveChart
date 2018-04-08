@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CurveChart">
+        <!--title文字-->
+        <attr name="titleText" format="string"/>
+        <!--title背景颜色-->
+        <attr name="titleBgColor" format="color"/>
+        <!--title文字颜色-->
+        <attr name="titleTextColor" format="color"/>
+        <!--title文字大小-->
+        <attr name="titleTextSize" format="dimension"/>
+        <!--图表背景颜色-->
+        <attr name="chartBgColor" format="color"/>
+        <!--x轴背景颜色-->
+        <attr name="xCoordinateBgColor" format="color"/>
+        <!--y轴线的颜色-->
+        <attr name="lineColor" format="color"/>
+        <!--x轴及y轴具体数值的默认颜色-->
+        <attr name="textDefaultColor" format="color"/>
+        <!--x轴及y轴具体数值被选中时的颜色-->
+        <attr name="textSelectedColor" format="color"/>
+        <!--x轴数值的文字大小-->
+        <attr name="xCoordinateTextSize" format="dimension"/>
+        <!--y轴数值的文字大小-->
+        <attr name="yCoordinateTextSize" format="dimension"/>
+        <!--曲线颜色-->
+        <attr name="curveColor" format="color"/>
+        <!--曲线表中点的默认样式-->
+        <attr name="chartPointDefaultStyle" format="reference"/>
+        <!--曲线表中点被选中时的样式-->
+        <attr name="chartPointSelectedStyle" format="reference"/>
+        <!--x轴坐标间的间距-->
+        <attr name="xCoordinateSpacing" format="dimension"/>
+        <!--图表渐变色中最浅的颜色-->
+        <attr name="chartMinimumColor" format="color"/>
+        <!--浮窗背景颜色-->
+        <attr name="floatBoxBgColor" format="color"/>
+    </declare-styleable>
+</resources>
