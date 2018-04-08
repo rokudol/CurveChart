@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.aaa);
+        setContentView(R.layout.activity_main);
         CurveChart curveChart = findViewById(R.id.chart);
         List xCoordinateData = new ArrayList<>();
         xCoordinateData.add("区域一");

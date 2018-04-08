@@ -1,1 +1,2 @@
 # CurveChart
+![](/curveChartViewImg.png)
